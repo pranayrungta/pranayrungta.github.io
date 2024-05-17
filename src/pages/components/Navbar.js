@@ -4,7 +4,7 @@ import {mainmenu, submenu} from '../../styles/nav.module.css'
 
 export default function Navbar() {
   return (
-    <nav className={mainmenu}>
+    <nav id={mainmenu}>
     <ul>
         <li> <Link to="/"> Home </Link> </li>
         <li> Academics

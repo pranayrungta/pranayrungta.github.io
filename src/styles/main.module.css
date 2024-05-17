@@ -1,11 +1,18 @@
 
+.wrapper{
+    display: flex !important;
+    flex-direction: column;
+    min-height: 100vh; /* Fill the viewport height */
+}
+
 img{
     float: right;
     border-radius: 50%;
     width: 20%;
     padding: 5%;
 }
-p{
+
+.just{
     text-align: justify;
     line-height: 25px;
 }

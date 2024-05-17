@@ -1,17 +1,21 @@
-.mainmenu{
+#mainmenu{
     background-color: black;
     margin:0px;
     padding:0px;
 }
-.mainmenu li{
+#mainmenu a{
+    color: white ;
+    text-decoration : none;
+}
+#mainmenu li{
     display: inline-block;
     padding: 20px 40px 20px;
     color: white;
     font-size: 22px;
     border: 1px solid blue;
 }
-.mainmenu li:hover{background-color: purple;}
-.mainmenu li:hover .submenu{
+#mainmenu li:hover{background-color: purple;}
+#mainmenu li:hover .submenu{
     display: block;
 }
 .submenu{
@@ -28,7 +32,3 @@
     margin: 0px;
 }
 
-.mainmenu a{
-    color: white ;
-    text-decoration : none;
-}

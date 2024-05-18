@@ -13,14 +13,12 @@ function Head(){
             document.documentElement.style.fontSize = '16px';
         };}, []);
 
-return (  <header id='resumehead'>
+    return (  <header id='resumehead'>
         <div id="resumeintro">
             <h1 id='title'>Pranay Deep Rungta, PhD</h1>
             <h2 id='titletag'>Data Scientist</h2>
-            <p> Data scientist with 5+ years of industry experience in building
-            scalable machine learning models end to end. Looking for opportunities
-            to leverage my mathematical and computational skills to solve problems
-            in the realm of data science. </p>
+            <p> Data scientist with 5+ years of industry experience in building scalable machine learning models end to end. Looking for opportunities to leverage my mathematical and computational skills to solve problems in the realm of data science.
+            </p>
         </div>
         <img id='resumephoto' src="/Pranay.jpg" alt='PranayPranayPranayPranay'/>
         <ul id="resumecontact">
@@ -58,15 +56,7 @@ export default function resume() {
                   <div className="resumeven">Bangalore</div>
                   <div className="resumeten">08/2022 - present</div>
               </div>
-              <p id='resumep'> I am leading the analytics team of three data scientists
-                  responsible for building backend of forecasting engine for
-                  multiple metrics: namely ticket count, resolution time and
-                  response time. I am also working as an individual contributor
-                  on the "AI first" project that aims to build NLP engine for
-                  all customer interaction concerned with analytics. In this
-                  project we are building services that enables customers to
-                  interact with Freshworks products in natural language
-                  using LLM(like chatGPT).
+              <p id='resumep'> I am leading the analytics team of three data scientists responsible for building backend of forecasting engine for multiple metrics: namely ticket count, resolution time and response time. I am also working as an individual contributor on the "AI first" project that aims to build NLP engine for all customer interaction concerned with analytics. In this project we are building services that enables customers to interact with Freshworks products in natural language using LLM(like chatGPT).
               </p>
           </div>
           <div className="exp"><h4 className='exphead'>Data Scientist at Exxonmobil</h4>
@@ -74,14 +64,7 @@ export default function resume() {
                   <div className="resumeven">PSN, Bangalore</div>
                   <div className="resumeten">12/2020 - 08/2022</div>
               </div>
-              <p id='resumep'> I worked on problems in upstream operations, building machine
-                  learning models that lead to significant reduction in operational
-                  expenses. I worked on three projects as the major contributor: Dilbit
-                  blending, green house gas emission reduction, modelling of Kearl
-                  recovery. I also lead the team of three data scientists and  mentored
-                  them over following projects: optimization of net operating hours of
-                  vehicles, remaining useful life estimation of Knifegate, and
-                  Kearl flotation project.
+              <p id='resumep'> I worked on problems in upstream operations, building machine learning models that lead to significant reduction in operational expenses. I worked on three projects as the major contributor: Dilbit blending, green house gas emission reduction, modelling of Kearl recovery. I also lead the team of three data scientists and  mentored them over following projects: optimization of net operating hours of vehicles, remaining useful life estimation of Knifegate, and Kearl flotation project.
               </p>
           </div>
           <div className="exp"><h4 className='exphead'>Data Scientist at GE Healthcare</h4>
@@ -99,10 +82,7 @@ export default function resume() {
                       <li> Reliability analysis: Prediction of average number of
                           failures of a CT component, and Remaining useful life. </li>
                   </ul>
-                  <p>
-                       Techniques used: TF-IDF, logistic regression, principal component analysis,
-                       collaborative filtering, singular value decomposition, k-means clustering,
-                       decision tree, logistic regression, fuzzy logic, Reliability analysis
+                  <p> Techniques used: TF-IDF, logistic regression, principal component analysis, collaborative filtering, singular value decomposition, k-means clustering, decision tree, logistic regression, fuzzy logic, Reliability analysis
                   </p>
               </p>
           </div>
@@ -111,8 +91,7 @@ export default function resume() {
                   <div className="resumeven">Bangalore</div>
                   <div className="resumeten">07/2018 - 09/2018</div>
               </div>
-              <p>
-                  Built ML model to classify recipe text into different attributes.
+              <p> Built ML model to classify recipe text into different attributes.
                   Technique used: voting classifier, part of speech tagging, logistic regression,
                   TF-IDF, regular expressions, conditional random field.
               </p>
@@ -168,9 +147,7 @@ export default function resume() {
           </div>
           <div><h3 className='subhead'>OTHER ACADEMIC EXPERIENCES</h3>
           <ul className='resumeul'>
-              <li>Development of python library(05/2014 - 04/2018) for Linear regression,
-              Statistical analysis, ETL pipelines, Interpolation, data visualization,
-              GNUplot script generation</li>
+              <li>Development of python library(05/2014 - 04/2018) for Linear regression, Statistical analysis, ETL pipelines, Interpolation, data visualization, GNUplot script generation</li>
               <li>Teaching Assistant (IISER  Mohali: 2016-2017)</li>
               <li>Summer school at IUCAA (Radio Astronomy - POS 2013), Winter school at NCRA
               (Ooty Radio Telescope-RAWS 2013), Summer project at BARC (IAS fellowship 2012).</li>

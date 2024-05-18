@@ -10,7 +10,7 @@ export default function Navbar() {
             <ul className='submenu'>
                 <li> <Link to="/academics/research"> Research Papers </Link> </li>
                 <li> <Link to="/academics/articles"> Articles </Link> </li>
-                <li> <Link to="/academics/recommend"> Recommended Math Physics Books </Link> </li>
+                <li> <Link to="/academics/recommend"> Recommended Books </Link> </li>
             </ul>
         </li>
         <li> <Link to="/industry"> Professional Experience </Link> </li>

@@ -6,6 +6,7 @@ import './../../styles/layout.css'
 export default function Layout({children}) {
   useEffect(() => {
     document.body.classList.add('bodystyle');
+    document.documentElement.style.fontSize = '16px';
     return () => {
       document.body.classList.remove('bodystyle');
     }; }, []);

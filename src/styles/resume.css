@@ -1,0 +1,106 @@
+.resumebody {
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+#resumecontent {
+    padding: 4% 3%;
+    aspect-ratio: 1 / 1.4;
+    display: grid;
+    grid-template-rows: min-content min-content auto;
+}
+
+/* color */
+.resumebody {
+    background-image: linear-gradient(to bottom right, black, navy);
+    color: skyblue;
+}
+.resumelink{color:skyblue}
+#resumeintro #titletag{color:cornflowerblue;}
+.resumeventen{color: cornflowerblue;}
+#hline{border-color: cornflowerblue;}
+
+/* .resumebody {
+    background-image: linear-gradient(to top right, white, lightblue);
+    color: black;
+}
+.resumelink{color:black}
+#resumeintro #titletag{color:blue;}
+.resumeventen{color: blue;}
+#hline{border-color: blue;} */
+
+
+/* font size */
+/* :root {font-size: 1vw;} */
+#title{ font-size: 3.1rem; }
+#titletag{ font-size: 2.2rem; }
+#resumeintro p { font-size: 1.6rem; }
+.subhead { font-size: 2rem;   }
+.exphead { font-size: 1.84rem; }
+.resumeventen { font-size: 1.64rem;   }
+#resumemain p, .resumeul{ font-size: 1.68rem;  }
+
+
+#resumehead{
+    display: grid;
+    grid-template-columns: 44% 14% 42%;
+}
+#resumephoto{width: 100%;
+    border-radius: 50%;
+    border: .3rem solid;
+}
+#title, #titletag{
+    padding:1% 0%;
+    margin: 0;
+}
+
+.resumep{text-align: justify;}
+#resumeintro p{
+    margin: 0;
+    margin-right: 4%;
+}
+#resumecontact{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#resumecontact li{
+    text-align: right;
+    list-style-type: none;
+}
+#hline{
+    margin: 1rem 0;
+    border-width: .3rem;
+}
+
+
+#resumemain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+#resumemain .subhead, .exphead, p{ margin:0; }
+#resumecolm1, #resumecolm2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48.5%;
+}
+
+#resumemain ul {
+    margin: 1rem 0 1rem 3rem;
+    padding: 0;
+    text-align: justify;
+}
+#resumemain ul li{padding-bottom: .5rem;}
+.resumeventen{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-weight: bold;
+    font-style: italic;
+}
+.resumeven{text-align: left;}
+.resumeten{text-align: right;}

@@ -1,14 +1,11 @@
 import * as React from "react"
 import Layout from "./components/Layout"
 import './../styles/content.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faGithub } from '@fortawesome/free-brands-svg-icons';
-// <FontAwesomeIcon icon={faGithub} />
 
 export default function Home() {
 
   return (<Layout>
-    <img id='homephoto' src="Pranay.jpg" alt="Pranay"/>
+    <img id='homephoto' src="/Pranay.jpg" alt="Pranay"/>
     <h1>About Me</h1>
     <p className='just'>
         Hi,<br/>

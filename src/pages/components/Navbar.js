@@ -14,7 +14,8 @@ export default function Navbar() {
             </ul>
         </li>
         <li> <Link to="/industry"> Professional Experience </Link> </li>
-        <li> <a href="/resume" target="_blank"> Resume </a> </li>
+        <li> <Link to="/resume"> Resume </Link> </li>
+        {/* <li> <a href="/resume" target="_blank"> Resume </a> </li> */}
     </ul>
   )
 }

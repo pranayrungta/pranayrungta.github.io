@@ -1,30 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './Navbar'
-import {wrapper} from './../../styles/main.module.css'
+import './../../styles/layout.css'
 
 
 export default function Layout({children}) {
-  Object.assign(document.body.style, {
-    backgroundColor : 'black',
-    color :           'aqua',
-    width :           '80%',
-    margin :          'auto',
-    fontFamily :      'Arial, Helvetica, sans-serif'
-  });
+  useEffect(() => {
+    document.body.classList.add('bodystyle');
+    return () => {
+      document.body.classList.remove('bodystyle');
+    }; }, []);
 
-  const footstyle = {flexShrink: 0,
-    backgroundColor: '#05002f',
-    textAlign : 'center',
-    marginTop: '50px',
-    padding: '10px'
-  }
-
-  return (<div className={wrapper}>
+  return (<div id='mainwrapper'>
     <Navbar/>
-    <div style={{flexGrow:1}}>
-    {children}
-    </div>
-    <footer style={footstyle}>
+    <div id='maincontent'> {children}  </div>
+    <footer id='foot'>
       Thank you for visiting!
     </footer>
   </div>)

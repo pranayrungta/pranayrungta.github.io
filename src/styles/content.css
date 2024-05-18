@@ -1,11 +1,4 @@
-
-.wrapper{
-    display: flex !important;
-    flex-direction: column;
-    min-height: 100vh; /* Fill the viewport height */
-}
-
-img{
+#homephoto{
     float: right;
     border-radius: 50%;
     width: 20%;

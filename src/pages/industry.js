@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from './components/Layout'
+import './../styles/content.css'
 
 export default function industry() {
     return (<Layout>

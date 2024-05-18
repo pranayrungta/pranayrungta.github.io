@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import {mainmenu, submenu} from '../../styles/nav.module.css'
+import '../../styles/nav.css'
 
 export default function Navbar() {
   return (
-    <nav id={mainmenu}>
-    <ul>
+    <ul id='mainmenu'>
         <li> <Link to="/"> Home </Link> </li>
         <li> Academics
-            <ul className={submenu}>
+            <ul className='submenu'>
                 <li> <Link to="/academics/research"> Research Papers </Link> </li>
                 <li> <Link to="/academics/articles"> Articles </Link> </li>
                 <li> <Link to="/academics/recommend"> Recommended Math Physics Books </Link> </li>
@@ -17,6 +16,5 @@ export default function Navbar() {
         <li> <Link to="/industry"> Professional Experience </Link> </li>
         <li> <a href="/resume" target="_blank"> Resume </a> </li>
     </ul>
-    </nav>
   )
 }

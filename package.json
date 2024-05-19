@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "pranay-rungta",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Pranay Rungta",
   "version": "0.1.0",
-  "license": "0BSD",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -23,9 +23,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/pranayrungta/pranayrungta.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/pranayrungta/pranayrungta.github.io.git/issues"
   }
 }

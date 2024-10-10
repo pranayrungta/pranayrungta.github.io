@@ -11,23 +11,24 @@
 }
 
 /* color */
-.resumebody {
+/* .resumebody {
     background-image: linear-gradient(to bottom right, black, navy);
     color: skyblue;
 }
 .resumelink{color:skyblue}
 #resumeintro #titletag{color:cornflowerblue;}
 .resumeventen{color: cornflowerblue;}
-#hline{border-color: cornflowerblue;}
+#hline{border-color: cornflowerblue;} */
 
-/* .resumebody {
+.resumebody {
     background-image: linear-gradient(to top right, white, lightblue);
     color: black;
 }
 .resumelink{color:black}
 #resumeintro #titletag{color:blue;}
 .resumeventen{color: blue;}
-#hline{border-color: blue;} */
+#hline{border-color: blue;}
+
 
 
 /* font size */
@@ -81,6 +82,9 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0;
+}
+#resumemain p{
+    text-align: justify;
 }
 #resumemain .subhead, .exphead, p{ margin:0; }
 #resumecolm1, #resumecolm2{

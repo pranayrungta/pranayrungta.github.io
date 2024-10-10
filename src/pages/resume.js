@@ -51,12 +51,20 @@ export default function resume() {
       <div id="resumecolm1">
           <h3 className='subhead'> INDUSTRY EXPERIENCE </h3>
 
-          <div className="exp"><h4 className='exphead'>Data Scientist at Freshworks</h4>
+          <div className="exp"><h4 className='exphead'>Data Scientist III at Inmobi</h4>
               <div className="resumeventen">
                   <div className="resumeven">Bangalore</div>
-                  <div className="resumeten">08/2022 - present</div>
+                  <div className="resumeten">08/2024 - present</div>
               </div>
-              <p id='resumep'> I am leading the analytics team of three data scientists responsible for building backend of forecasting engine for multiple metrics: namely ticket count, resolution time and response time. I am also working as an individual contributor on the "AI first" project that aims to build NLP engine for all customer interaction concerned with analytics. In this project we are building services that enables customers to interact with Freshworks products in natural language using LLM(like chatGPT).
+              <p id='resumep'> I am working on improving the ML models for deals KPI.  </p>
+          </div>
+          <div className="exp"><h4 className='exphead'>Lead Data Scientist at Freshworks</h4>
+              <div className="resumeventen">
+                  <div className="resumeven">Bangalore</div>
+                  <div className="resumeten">08/2022 - 07/2024</div>
+              </div>
+              <p id='resumep'> I was leading the analytics team of three data scientists responsible for building backend of forecasting engine for multiple metrics: namely ticket count, resolution time and response time. I also worked as an individual contributor on the "AI first" project that aims to build NLP engine for all customer interaction concerned with analytics. In this project we built services that enables customers to interact with Freshworks products in natural language using LLM(like chatGPT).
+              I also developed the core engine for root cause analysis for multiple insights (e.g. spike in ticket count) that used history data and machine learning to generate a tree to localise the reason behind an anomaly.
               </p>
           </div>
           <div className="exp"><h4 className='exphead'>Data Scientist at Exxonmobil</h4>

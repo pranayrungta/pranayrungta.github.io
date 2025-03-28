@@ -56,15 +56,14 @@ export default function resume() {
                   <div className="resumeven">Bangalore</div>
                   <div className="resumeten">08/2024 - present</div>
               </div>
-              <p id='resumep'> I am working on improving the ML models for deals KPI.  </p>
+              <p id='resumep'> I developed models for the private exchange within the supply-side platform. I contributed to the enhancement and implementation of the machine learning model, transitioning from LGBM model to MLP, for Deals KPI project. I also developed ID-graph from SSP data, which was utilized for amplification during bidding.  </p>
           </div>
           <div className="exp"><h4 className='exphead'>Lead Data Scientist at Freshworks</h4>
               <div className="resumeventen">
                   <div className="resumeven">Bangalore</div>
                   <div className="resumeten">08/2022 - 07/2024</div>
               </div>
-              <p id='resumep'> I was leading the analytics team of three data scientists responsible for building backend of forecasting engine for multiple metrics: namely ticket count, resolution time and response time. I also worked as an individual contributor on the "AI first" project that aims to build NLP engine for all customer interaction concerned with analytics. In this project we built services that enables customers to interact with Freshworks products in natural language using LLM(like chatGPT).
-              I also developed the core engine for root cause analysis for multiple insights (e.g. spike in ticket count) that used history data and machine learning to generate a tree to localise the reason behind an anomaly.
+              <p id='resumep'> I led a team of three data scientists responsible for developing the backend of a forecasting engine that tracked multiple metrics, including ticket count, resolution time, and response time. Additionally, I designed and implemented the core engine for root cause analysis, which leveraged historical data and machine learning to generate a tree that identified the underlying causes of anomalies, such as spikes in ticket volume.
               </p>
           </div>
           <div className="exp"><h4 className='exphead'>Data Scientist at Exxonmobil</h4>
@@ -80,28 +79,8 @@ export default function resume() {
                   <div className="resumeven">JFWTC, Bangalore</div>
                   <div className="resumeten">10/2018 - 12/2020</div>
               </div>
-              <p id='resumep'> <ul className='resumeul'>
-                      <li> Predictive analytics of medical imaging device
-                          (collimator in CT scanner, RF coil in MRI scanner).  </li>
-                      <li> Parts Recommendation: Model for personalized recommendation to
-                          customers for purchase of CT Parts based on their history. </li>
-                      <li> Preventive maintenance: Prediction of the failed component of medical
-                          imaging systems (CT scan, MRI, and others). </li>
-                      <li> Reliability analysis: Prediction of average number of
-                          failures of a CT component, and Remaining useful life. </li>
-                  </ul>
-                  <p> Techniques used: TF-IDF, logistic regression, principal component analysis, collaborative filtering, singular value decomposition, k-means clustering, decision tree, logistic regression, fuzzy logic, Reliability analysis
-                  </p>
-              </p>
-          </div>
-          <div className="exp"><h4 className='exphead'>Data Scientist at dishq</h4>
-              <div className="resumeventen">
-                  <div className="resumeven">Bangalore</div>
-                  <div className="resumeten">07/2018 - 09/2018</div>
-              </div>
-              <p> Built ML model to classify recipe text into different attributes.
-                  Technique used: voting classifier, part of speech tagging, logistic regression,
-                  TF-IDF, regular expressions, conditional random field.
+              <p>
+                  I contributed to several high-impact projects, including predictive analytics for medical imaging devices, with a particular focus on collimators in CT scanners and RF coils in MRI scanners. I employed reliability analysis to forecast the average number of failures in CT components and estimate their remaining useful life. Additionally, I developed a parts recommendation model that offered personalized suggestions for customers to purchase CT parts based on their historical data, utilizing collaborative filtering techniques. Furthermore, I contributed in developing an advanced troubleshooting tool leveraging machine learning and NLP classifiers to diagnose potential component failures in medical imaging systems, such as CT scanners and MRIs.
               </p>
           </div>
       </div>
@@ -143,9 +122,9 @@ export default function resume() {
           <div><h3 className='subhead'>KEY SKILLS</h3>
           <ul className='resumeul'>
               <li> Probability, Statistics, Machine Learning, NLP, Algorithms and Data structures,
-                   LLD and HLD of machine learning models</li>
+                   Design of machine learning projects</li>
               <li> Python(10+ years: sklearn, pyspark, pandas, matplotlib, NumPy,
-                   SciPy, networkX, pyQt5), C++11(5 years), SQL, Latex, CUDA, Java
+                   SciPy, networkX, pyQt5, keras-tensorflow), C++11(5 years), SQL, Latex, CUDA, Java
                    Haskell, MATLAB, html, css, javascript</li>
               <li> Git, docker, Kubernetes, AWS, Azure</li>
               <li> Differential equations, Linear Algebra, Math Methods for Numerical computation,

@@ -17,7 +17,7 @@ function Head(){
         <div id="resumeintro">
             <h1 id='title'>Pranay Deep Rungta, PhD</h1>
             <h2 id='titletag'>Data Scientist</h2>
-            <p> Data scientist with 5+ years of industry experience in building scalable machine learning models end to end. Looking for opportunities to leverage my mathematical and computational skills to solve problems in the realm of data science.
+            <p> Data scientist with 6+ years of industry experience in building scalable machine learning models end to end. Looking for opportunities to leverage my mathematical and computational skills to solve problems in the realm of data science.
             </p>
         </div>
         <img id='resumephoto' src="/Pranay.jpg" alt='PranayPranayPranayPranay'/>

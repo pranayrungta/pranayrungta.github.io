@@ -17,7 +17,7 @@ function Head(){
         <div id="resumeintro">
             <h1 id='title'>Pranay Deep Rungta, PhD</h1>
             <h2 id='titletag'>Data Scientist</h2>
-            <p> Data scientist with 6+ years of industry experience in building scalable machine learning models end to end. Looking for opportunities to leverage my mathematical and computational skills to solve problems in the realm of data science.
+            <p> Data scientist with 8+ years of industry experience in building scalable machine learning models end to end. Looking for opportunities to leverage my mathematical and computational skills to solve problems in the realm of data science.
             </p>
         </div>
         <img id='resumephoto' src="/Pranay.jpg" alt='PranayPranayPranayPranay'/>
@@ -51,12 +51,21 @@ export default function resume() {
       <div id="resumecolm1">
           <h3 className='subhead'> INDUSTRY EXPERIENCE </h3>
 
+          <div className="exp"><h4 className='exphead'>Applied Scientist at Oracle</h4>
+              <div className="resumeventen">
+                  <div className="resumeven">OTH, Bangalore</div>
+                  <div className="resumeten">06/2025 - present</div>
+              </div>
+              <p id='resumep'> I managed and maintained 4 BERT-based language models on OCI, ensuring high availability across multiple global regions and realms. Contributed to performance enhancement of one language model, improving efficiency and scalability in production. Supported large-scale, production-grade deployments with a focus on reliability, monitoring, and continuous improvement.
+              </p>
+          </div>
           <div className="exp"><h4 className='exphead'>Data Scientist III at Inmobi</h4>
               <div className="resumeventen">
                   <div className="resumeven">Bangalore</div>
-                  <div className="resumeten">08/2024 - present</div>
+                  <div className="resumeten">08/2024 - 04/2025</div>
               </div>
-              <p id='resumep'> I developed models for the private exchange within the supply-side platform. I contributed to the enhancement and implementation of the machine learning model, transitioning from LGBM model to MLP, for Deals KPI project. I also developed ID-graph from SSP data, which was utilized for amplification during bidding.  </p>
+              <p id='resumep'> I developed models for the private exchange within the supply-side platform. I contributed to the enhancement and implementation of the machine learning model, transitioning from LGBM model to MLP, for Deals KPI project. I also developed ID-graph from SSP data, which was utilized for amplification during bidding.
+              </p>
           </div>
           <div className="exp"><h4 className='exphead'>Lead Data Scientist at Freshworks</h4>
               <div className="resumeventen">
@@ -80,7 +89,7 @@ export default function resume() {
                   <div className="resumeten">10/2018 - 12/2020</div>
               </div>
               <p>
-                  I contributed to several high-impact projects, including predictive analytics for medical imaging devices, with a particular focus on collimators in CT scanners and RF coils in MRI scanners. I employed reliability analysis to forecast the average number of failures in CT components and estimate their remaining useful life. Additionally, I developed a parts recommendation model that offered personalized suggestions for customers to purchase CT parts based on their historical data, utilizing collaborative filtering techniques. Furthermore, I contributed in developing an advanced troubleshooting tool leveraging machine learning and NLP classifiers to diagnose potential component failures in medical imaging systems, such as CT scanners and MRIs.
+                I worked on high-impact projects in predictive analytics for medical imaging devices (CT and MRI), focusing on reliability analysis to forecast failures and estimate remaining useful life of components. Built a personalized parts recommendation system using collaborative filtering, and contributed to an ML- and NLP-based troubleshooting tool for diagnosing component failures in imaging systems.
               </p>
           </div>
       </div>
